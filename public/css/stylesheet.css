@@ -3,9 +3,8 @@
   --secondary-color: #f1eeee;
   --accent-color: #E52236;
   --text-color: #000000;
-  --font:'Bai Jamjuree', sans-serif;
+  --font: 'Bai Jamjuree', sans-serif;
 }
-
 
 .card {
   margin-bottom: 20px;
@@ -49,15 +48,11 @@
   text-decoration: underline;
 }
 
-
-
-
 body {
   font-family: var(--font);
   background-color: var(--primary-color);
   color: var(--text-color);
 }
-
 
 .Cstmcontainer {
   max-width: 1000px;
@@ -67,35 +62,35 @@ body {
   padding: 20px;
   border-radius: 8px;
 }
+
 #events_eventTimeDate_date_month,
 #events_eventTimeDate_date_day,
 #events_eventTimeDate_date_year {
-    width: 100%;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    box-sizing: border-box;
-    margin-bottom: 10px; 
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 #events_eventTimeDate_time_minute,
 #events_eventTimeDate_time_hour {
-    width: 49%;
-    display: inline-block;
-  
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    border: 1px solid #ced4da;
-    border-radius: 0.25rem;
-    box-sizing: border-box;
-    margin-bottom: 10px; 
+  width: 49%;
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 #events_eventTimeDate_time_minute {
@@ -106,44 +101,44 @@ body {
   margin-right: 6px;
 }
 
-#events_eventTimeDate_date_month{
+#events_eventTimeDate_date_month {
   margin-top: 5px;
 }
 
 .btnCstm {
-  color: var(--accent-color); 
-  background-color: transparent; 
+  color: var(--accent-color);
+  background-color: transparent;
   background-image: none;
-  border-color: var(--accent-color); 
+  border-color: var(--accent-color);
 }
 
 .btnCstm:hover {
   color: #fff;
-  background-color: var(--accent-color); 
+  background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
 .btnCstm:focus,
 .btnCstm.focus {
-  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); 
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
 }
 
 .btnCstm.disabled,
 .btnCstm:disabled {
   color: var(--accent-color);
-  background-color: transparent; 
+  background-color: transparent;
 }
 
 .btnCstm:not(:disabled):not(.disabled):active,
 .btnCstm.active,
 .show > .btnCstm.dropdown-toggle {
-  color: #fff; 
-  background-color: var(--accent-color); 
-  border-color: var(--accent-color); 
+  color: #fff;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .btnCstm:not(:disabled):not(.disabled):active:focus,
 .btnCstm.active:focus,
 .show > .btnCstm.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5); 
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
 }

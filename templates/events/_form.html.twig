@@ -6,7 +6,7 @@
         {{ form_widget(form.eventName, {'attr': {'class': 'form-control'}}) }}
     </div>
 
-   <div class="mb-3">
+    <div class="mb-3">
         {{ form_label(form.eventTimeDate, 'Event Date and Time', {'attr': {'class': 'form-label'}}) }}
         {{ form_widget(form.eventTimeDate, {'attr': {'class': 'form-control', 'type': 'datetime-local'}}) }}
     </div>
@@ -54,4 +54,3 @@
     <button type="submit" class="btn btn-primary">{{ button_label|default('Save') }}</button>
     {{ form_end(form) }}
 </div>
-
