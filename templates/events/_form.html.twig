@@ -1,0 +1,57 @@
+<div class="container Cstmcontainer mt-4">
+    {{ form_start(form) }}
+
+    <div class="mb-3">
+        {{ form_label(form.eventName, 'Event Name', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventName, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+   <div class="mb-3">
+        {{ form_label(form.eventTimeDate, 'Event Date and Time', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventTimeDate, {'attr': {'class': 'form-control', 'type': 'datetime-local'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventDescription, 'Event Description', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventDescription, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventImg, 'Event Image', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventImg, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventCapacity, 'Event Capacity', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventCapacity, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventEmail, 'Event Email', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventEmail, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventPhoneNumber, 'Event Phone Number', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventPhoneNumber, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventAdress, 'Event Address', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventAdress, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventUrl, 'Event URL', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventUrl, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <div class="mb-3">
+        {{ form_label(form.eventType, 'Event Type', {'attr': {'class': 'form-label'}}) }}
+        {{ form_widget(form.eventType, {'attr': {'class': 'form-control'}}) }}
+    </div>
+
+    <button type="submit" class="btn btn-primary">{{ button_label|default('Save') }}</button>
+    {{ form_end(form) }}
+</div>
+
